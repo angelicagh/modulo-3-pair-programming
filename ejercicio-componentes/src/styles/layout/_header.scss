@@ -1,0 +1,110 @@
+.header {
+    height: 100vh;
+    width: auto;
+    background-image: url("../images/header.jpg");
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: cover;
+  }
+  
+  h1{
+    display: flex;
+    flex-direction: column;
+    margin-block: 15%;
+    font-size: 24px;
+    font-weight: 600; 
+    @media (min-width: 900px){
+      font-size: 36px;
+      margin-bottom: 5%;
+    }
+    @media (min-width: 1728px){
+      width: 25%;
+      margin-bottom: 0;
+    }
+  }
+  
+  .header__btn:hover{
+    color: #0c474b;
+    background-color: aliceblue;
+    border-radius: 25px;
+  }
+  
+  .header__hero {
+   text-align: center;
+   @media (min-width: 900px) {
+    width: 60%;
+    padding-left:20%;
+    text-align: left;
+  }
+  @media (min-width: 1728px){
+    width: 100%;
+    padding-left:20%;
+    text-align: left;
+  }
+  }
+  
+  .header__btn{
+    text-decoration: none;
+    color:white;
+    background-color: #0c474b;
+    display:inline-block;
+    padding-block:10px;
+    padding-inline:20px;
+    margin-block: 20px;
+    @media (min-width: 900px){
+      margin-top:20px;
+    }
+  }
+  /* corregir esta ñapa*/
+  .nav{
+    margin-top: -33px;
+    padding-left:33px;
+    height: 30%;
+    display:flex;
+    position:sticky; top:20px; left:20px;
+  }
+  
+  .nav__menu-burger {
+    width: 24px;
+    height: 24px;
+    color: #0c474b;
+    @media (min-width: 1728px) {
+      display: none;
+    }
+  }
+  
+  .nav__text {
+  display: none;
+  @media (min-width: 1728px) {
+    display: flex;
+    gap:50px;
+    padding-left: 18%;
+  }
+  }
+  
+  .nav__text a{
+    font-size: 16px;
+    color: #0c474b;
+  }
+  
+  .nav__text a:hover {
+    color: #ff975a;
+    font-weight: 500px;
+  }
+  
+  
+  .nav__logo {
+    position:relative; top:50px; left: 30vw;
+    width: 213px;
+    height: 96px;
+    margin-bottom: 62px;
+    @media (min-width: 900px){
+      position:relative; top:50px; left: 40vw;
+    }
+    @media (min-width: 1728px){
+      position:relative; top:50px; left: 45vw;
+    }
+    
+  }
+  
+  

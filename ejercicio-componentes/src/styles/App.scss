@@ -1,0 +1,29 @@
+/*@use 'core/reset';
+@use 'components/code';
+@use 'components/links';
+@use 'layout/page';
+@use 'layout/header';
+@use 'layout/footer';
+@use 'pages/index';*/
+
+@use 'layout/header';
+@use 'layout/page';
+@use 'layout/footer';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    color: #0c474b;
+}
+
+ul li a{
+    text-decoration: none;
+  }
