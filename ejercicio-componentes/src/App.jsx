@@ -1,5 +1,3 @@
-import './styles/App.scss'
-import {Routes, Route} from 'react-router'
 
 
 
