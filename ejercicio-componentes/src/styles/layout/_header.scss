@@ -68,14 +68,14 @@
     width: 24px;
     height: 24px;
     color: #0c474b;
-    @media (min-width: 1728px) {
+    @media (min-width: 1200px) {
       display: none;
     }
   }
   
   .nav__text {
   display: none;
-  @media (min-width: 1728px) {
+  @media (min-width: 1200px) {
     display: flex;
     gap:50px;
     padding-left: 18%;

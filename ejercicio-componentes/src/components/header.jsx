@@ -1,21 +1,20 @@
-import logo from '../images/logo.png'
+import logo from "../images/logo.png";
 
-function header () {
- 
+function Header() {
+  return (
+    <>
+      <header className="header">
+        <img src={logo} alt="logo" className="nav__logo" />
 
-    return (
-      <>
-  <header class="header">
-  
-  <img src={logo} alt="logo" class="nav__logo"/>
+        <section className="header__hero">
+          <h1>Disfruta creando espacios</h1>
+          <a href="#" className="header__btn">
+            Comprar ahora
+          </a>
+        </section>
+      </header>
+    </>
+  );
+}
 
-  <section class="header__hero">
-    <h1>Disfruta creando espacios</h1>
-    <a href="#" class="header__btn">Comprar ahora</a>
-  </section>
-</header>
-      </>
-  ) 
-  }
-  
-  export default header
+export default Header;
